@@ -1,7 +1,7 @@
 import axios from 'axios';
 import CryptoJS from 'crypto-js';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://notes-server-3-fej1.onrender.com';
 const AES_SECRET = 'supersecretencryptionkey_12345'; // Must match backend `.env`
 
 // Shared Axios instance
